@@ -1,1 +1,0 @@
-var I=function(u,n,e,r){var c=u[0],d=u[1],o=!1;e===void 0&&(e=0),r===void 0&&(r=n.length);for(var v=r-e,f=0,a=v-1;f<v;a=f++){var g=n[f+e][0],l=n[f+e][1],h=n[a+e][0],i=n[a+e][1],p=l>d!=i>d&&c<(h-g)*(d-l)/(i-l)+g;p&&(o=!o)}return o};export{I as n};

@@ -1,1 +1,0 @@
-import{i as t}from"./is-string-blank-CjnoGYLr.js";var f=t,s=function(r){var a=typeof r;if(a==="string"){var e=r;if(r=+r,r===0&&f(e))return!1}else if(a!=="number")return!1;return r-r<1};export{s as f};
