@@ -1,0 +1,1 @@
+function n(){var e=!1;try{var t=Object.defineProperty({},"passive",{get:function(){e=!0}});window.addEventListener("test",null,t),window.removeEventListener("test",null,t)}catch{e=!1}return e}var s=n();export{s as h};

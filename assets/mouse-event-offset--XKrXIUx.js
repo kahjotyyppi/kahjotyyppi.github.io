@@ -1,0 +1,1 @@
+var c={left:0,top:0},u=f;function f(n,t,r){t=t||n.currentTarget||n.srcElement,Array.isArray(r)||(r=[0,0]);var i=n.clientX||0,o=n.clientY||0,e=s(t);return r[0]=i-e.left,r[1]=o-e.top,r}function s(n){return n===window||n===document||n===document.body?c:n.getBoundingClientRect()}export{u as m};
